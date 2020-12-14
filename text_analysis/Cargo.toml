@@ -1,0 +1,18 @@
+[package]
+name = "text_analysis"
+version = "0.1.0"
+authors = ["vaaaaanquish <6syun9@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lindera = { git = "https://github.com/lindera-morphology/lindera.git" }
+lindera-core = { git = "https://github.com/lindera-morphology/lindera.git" }
+serde = { version = "1", features = ["derive"] }
+counter = "0.5.2"
+csv = "1.1"
+fasttext = "0.5"
+itertools = "0.9.0"
+xgboost = "0.1.4"
+array_tool = "1.0.3"
